@@ -1,0 +1,32 @@
+{
+  "name": "automatix",
+  "version": "0.0.1",
+  "description": "Simple automatic code deployer for hackathons or small projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andresusanto/automatix.git"
+  },
+  "keywords": [
+    "automatix",
+    "automatic",
+    "deployer",
+    "auto",
+    "deployer"
+  ],
+  "author": "Andre Susanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresusanto/automatix/issues"
+  },
+  "homepage": "https://github.com/andresusanto/automatix#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "winston": "^2.3.0"
+  }
+}
